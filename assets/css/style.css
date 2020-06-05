@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Rosario', sans-serif;
+}
+
+main {
+    width: 1350px;
+    height: 1200px;
+    background: rgba(204, 186, 186, 0.6);
+}
+
+/*Sessão de localização*/
+
+.description {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+
+.qualocalizacao {
+    display: flex;
+    flex-direction: row;    
+}
+
+/*quadro localização esquerda*/
+
+.quadroloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.localizacao {
+    width: 100%;
+    margin-left: 63px;
+}
+
+.loca1 {
+    width: 100%;
+    height: 80px;
+    margin-left: 63px;
+    background-color: #7FB38D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dado1 {
+    width: 40%;
+}
+
+/*Quadro localização direita*/
+
+.descriptiond {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.d1 {
+    flex-direction: row;
+}
+
+.desc_1 {
+    display: flex;
+    width: 280px;
+    height: 106px;
+    font-size: 15px;
+    background-color: #7FB38D;
+    color: #FFE8E8;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.lista1 {
+    display: flex;
+    width: 280px;
+    height: 106px;
+    font-size: 15px;
+    background-color: #7FB38D;
+    color: #FFE8E8;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/*Galeria de Café*/
+
+.galeria {
+    display: flex;    
+    margin-top: 115px;    
+    justify-content: space-around;
+}
+
+.gal1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cafe1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cafe {
+    width: 324px;
+    height: 282px;
+}
+
+.cafee {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    height: 88px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 2px 0 #B0C4DE;
+}
+
+.descrip {
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descrip1 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+    width: 1350px;
+    height: 700px;
+    background: rgba(204, 186, 186, 0.6);
+}
+
+.fundo_rod {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding: 80px;
+}
+
+.cel {
+    width: 456px;
+    height: 552px;
+}
+
+.desc_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.d1 {
+    width: 326px;
+    height: 110px;
+}
+
+span {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+}
+
+.d2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #804E4E;
+}
+
+.d3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.desc_passos {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 70px;
+    color: black;
+}
+
+.store {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.google {
+    width: 165px;
+    height: 61px;
+}
+
+.apple {
+    width: 175px;
+    height: 64px;
+}
