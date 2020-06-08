@@ -4,18 +4,282 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: 'Rosario', sans-serif;
+    font-family: 'Rosario';
 }
 
-main {
-    width: 1350px;
-    height: 1200px;
-    background: rgba(204, 186, 186, 0.6);
+body{
+    width: 99vw;
+    max-width: 1366px;
+    background-color: rgba(204, 186, 186, 0.6);
+}
+
+/*header*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+#header{
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_icon{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.box_icon figure{
+    width: 20%;
+}
+
+.box_icon figure img{
+    width: 60px;
+}
+
+.box_santa_teresa{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.box_santa_teresa figure{
+    width: 12%;
+}
+
+.box_santa_teresa figure img{
+    width: 23px;
+}
+
+
+.box_santa_teresa a{
+    width: 88%;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.box_buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign_in{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #7FB38D;
+}
+
+.sign{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7FB38D;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 186, 186, 0.6);
+}
+
+/*container principal*/
+#container_coffe{
+    width: 100%;
+    height: 120vh;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h1{
+    width: 410px;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #804E4E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title p{
+    width: 500px;
+    height: 45%;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #000000;
+}
+
+.love_coffe{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.love_coffe figure{
+    width: 90%;
+    z-index: 0;
+}
+
+.love_coffe p{
+    width: 490px;
+    height: 203;
+    background-color: #7FB38D;
+    border-left: 20px solid #FFFFFF;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFE8E8;
+    padding: 20px;
+    margin-top: -40px;
+    z-index: 1;
+}
+
+/*section fotos café*/
+#gallery{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.photograph{
+    width: 42%;
+    height: 100%;
+}
+
+.photo_coffe-1{
+    width: 100%;
+    height: 80%;
+}
+
+.photo_coffe-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.photograph p{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    font-family: Rosario;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.wrap_photograph{
+    width: 42%;
+    height: 100%;
+}
+
+.photo_coffe-2{
+    width: 100%;
+    height: 31%;
+}
+
+.photo_coffe-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box_photograph{
+    width: 100%;
+    height: 63%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.box{
+    width: 48%;
+    height: 100%;
+}
+
+.photo_coffe-3{
+    width: 100%;
+    height: 69%;
+}
+
+.photo_coffe-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box p{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: Rosario;
+    font-size: 1.25rem;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
 }
 
 /*Sessão de localização*/
-
 .description {
+    margin-top: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
     text-align: center;
@@ -23,14 +287,12 @@ main {
     color: black;
 }
 
-
 .qualocalizacao {
     display: flex;
     flex-direction: row;    
 }
 
 /*quadro localização esquerda*/
-
 .quadroloc{
     display: flex;
     flex-direction: column;
@@ -96,7 +358,9 @@ main {
 /*Galeria de Café*/
 
 .galeria {
+    width: 90%;
     display: flex;    
+    margin: auto;
     margin-top: 115px;    
     justify-content: space-around;
 }
@@ -139,14 +403,22 @@ main {
 }
 
 /* Footer */
-
 footer {
-    width: 1350px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     background: rgba(204, 186, 186, 0.6);
 }
 
+#foooter {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 .fundo_rod {
+    width: 30%;
     display: flex;
     flex-direction: row;
     margin-left: 50px;
@@ -159,6 +431,7 @@ footer {
 }
 
 .desc_footer {
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
