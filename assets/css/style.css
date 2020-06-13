@@ -111,7 +111,6 @@ header{
 main{
     width: 100%;
     height: 100%;
-    background-color: rgba(204, 186, 186, 0.6);
 }
 
 /*container principal*/
@@ -280,7 +279,6 @@ main{
 /*Sessão de localização*/
 .description {
     margin-top: 50px;
-    margin-bottom: 50px;
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
@@ -360,8 +358,7 @@ main{
 .galeria {
     width: 90%;
     display: flex;    
-    margin: auto;
-    margin-top: 115px;    
+    margin: auto; 
     justify-content: space-around;
 }
 
@@ -408,15 +405,11 @@ footer {
     height: 100%;
     background: rgba(204, 186, 186, 0.6);
 }
-
 #foooter {
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
-
-
-
 .fundo_rod {
     width: 30%;
     display: flex;
