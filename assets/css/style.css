@@ -7,8 +7,12 @@
     font-family: 'Rosario';
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
-    width: 99vw;
+    width: 100vw;
     max-width: 1366px;
     background-color: rgba(204, 186, 186, 0.6);
 }
@@ -23,7 +27,7 @@ header{
 
 #header{
     width: 90%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     justify-content: space-between;
 }
@@ -49,22 +53,20 @@ header{
 }
 
 .box_santa_teresa figure{
-    width: 12%;
+    width: 8%;
 }
 
 .box_santa_teresa figure img{
     width: 23px;
 }
 
-
 .box_santa_teresa a{
     width: 88%;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: normal;
     font-size: 1.25rem;
     line-height: 22px;
-    text-decoration: none;
     color: #000000;
 }
 
@@ -81,7 +83,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;
@@ -98,7 +100,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #7FB38D;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;
@@ -117,9 +119,10 @@ main{
 #container_coffe{
     width: 100%;
     height: 120vh;
-    padding-left: 50px;
+    padding-left: 5%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 10%;
 }
 
 .title{
@@ -135,7 +138,7 @@ main{
     height: 45%;
     display: flex;
     align-items: center;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: bold;
     font-size: 4rem;
@@ -148,7 +151,7 @@ main{
 .title p{
     width: 500px;
     height: 45%;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
@@ -166,15 +169,14 @@ main{
 
 .love_coffe figure{
     width: 90%;
-    z-index: 0;
 }
 
 .love_coffe p{
-    width: 490px;
-    height: 203;
+    width: 60%;
+    height: 25%;
     background-color: #7FB38D;
     border-left: 20px solid #FFFFFF;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-style: normal;
     font-weight: normal;
     font-size: 1.75rem;
@@ -183,20 +185,19 @@ main{
     color: #FFE8E8;
     padding: 20px;
     margin-top: -40px;
-    z-index: 1;
 }
 
 /*section fotos café*/
 #gallery{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
-    margin-top: 90px;
+    margin: 130px 0 90px;
 }
 
 .photograph{
-    width: 42%;
+    width: 40%;
     height: 100%;
 }
 
@@ -217,14 +218,14 @@ main{
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    font-family: Rosario;
-    font-size: 18px;
+    font-family: 'Rosario';
+    font-size: 1.125rem;
     line-height: 22px;
     color: #000000;
 }
 
 .wrap_photograph{
-    width: 42%;
+    width: 40%;
     height: 100%;
 }
 
@@ -269,7 +270,7 @@ main{
     justify-content: center;
     text-align: center;
     background-color: #FFFFFF;
-    font-family: Rosario;
+    font-family: 'Rosario';
     font-size: 1.25rem;
     line-height: 22px;
     text-transform: capitalize;
@@ -277,205 +278,331 @@ main{
 }
 
 /*Sessão de localização*/
+#fundo{
+    width: 90%;
+    margin: auto;
+}
+
 .description {
-    margin-top: 50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    color: black;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rosario';
+    font-size: 1.75rem;
+    line-height: 45px;
+    text-transform: uppercase; 
+    color: #804E4E;
 }
 
 .qualocalizacao {
+    width: 90%;
+    height: 86vh;
     display: flex;
-    flex-direction: row;    
+    margin: auto;
 }
 
 /*quadro localização esquerda*/
 .quadroloc{
+    width: 75%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .localizacao {
     width: 100%;
-    margin-left: 63px;
+    height: 80%
+    
+    ;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
 }
 
 .loca1 {
     width: 100%;
-    height: 80px;
-    margin-left: 63px;
+    height: 20%;
     background-color: #7FB38D;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid #FFFFFF;
+}
+
+.formulario{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.icon{
+    width: 45%;
+    height: 6vh;
+    display: flex;
+}
+
+.icon figure{
+    width: 15%;
+    height: 100%;
+    background: #FFE8E8;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1.5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon img{
+    width: 45%;
+    height: 55%;
 }
 
 .dado1 {
-    width: 40%;
+    width: 85%;
+    height: 100%;
+    background: #FFE8E8;
+    border: 1.5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 4%;
 }
 
 /*Quadro localização direita*/
 
 .descriptiond {
+    width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
 }
 
-.d1 {
-    flex-direction: row;
-}
 
 .desc_1 {
-    display: flex;
-    width: 280px;
-    height: 106px;
-    font-size: 15px;
+    width: 100%;
+    height: 20%;
     background-color: #7FB38D;
-    color: #FFE8E8;
-    align-items: center;
+    border: 1px solid #FFFFFF;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 25px;
     text-transform: uppercase;
+    color: #FFE8E8;
+}
+
+.lista{
+    width: 100%;
+    height: 80%;
 }
 
 .lista1 {
+    width: 100%;
+    height: 25%;
+    background: #7FB38D;
+    border: 1px solid #FFFFFF;
     display: flex;
-    width: 280px;
-    height: 106px;
-    font-size: 15px;
-    background-color: #7FB38D;
-    color: #FFE8E8;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 25px;
     text-transform: uppercase;
+    color: #FFE8E8;
+}
+
+
+.lista2 {
+    width: 100%;
+    height: 25%;
+    background: #7FB38D;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFE8E8;
+}
+
+.background{
+    width: 100%;
+    height: 50vh;
+    background-color: #804E4E;
+    position: absolute;
+    top: 349vh;
+    z-index: -1;
 }
 
 /*Galeria de Café*/
-
 .galeria {
-    width: 90%;
+    width: 80%;
     display: flex;    
-    margin: auto; 
+    margin: 100px auto; 
     justify-content: space-around;
 }
 
 .gal1 {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cafe1 {
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
 
 .cafe {
-    width: 324px;
+    width: 100%;
     height: 282px;
 }
 
 .cafee {
+    width: 100%;
+    height: 15vh;
     display: flex;
     flex-direction: column;
-    width: 324px;
-    height: 88px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     text-align: center;
     box-shadow: 2px 2px 2px 0 #B0C4DE;
 }
 
 .descrip {
-    margin-top: 18px;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rosario';
     font-weight: bold;
-}
+    font-size: 1.125rem;
+    line-height: 22px;
+    margin-top: 18px;
+    color: #000000;
+} 
 
 .descrip1 {
-    margin: 10px;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #804E4E;
 }
 
 /* Footer */
 footer {
     width: 100%;
-    height: 100%;
-    background: rgba(204, 186, 186, 0.6);
 }
-#foooter {
+
+#footer {
     width: 80%;
+    height: 84vh;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 50px;
 }
-.fundo_rod {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    padding: 80px;
+
+.parte_footer1{
+    width: 40%;
+    height: 100%;
 }
 
 .cel {
-    width: 456px;
-    height: 552px;
+    width: 100%;
+    height: 100%;
 }
 
-.desc_footer {
-    width: 80%;
+.parte_footer2{
+    width: 60%;
+    height: 90%;
     display: flex;
     flex-direction: column;
-}
-
-.d1 {
-    width: 326px;
-    height: 110px;
-}
-
-span {
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: left;
-    color: black;
-}
-
-.d2 {
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: left;
-    color: #804E4E;
-}
-
-.d3 {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-}
-
-.desc_passos {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: capitalize;
-    line-height: 70px;
-    color: black;
-}
-
-.store {
-    display: flex;
-    margin-top: 30px;
-    flex-direction: row;
     align-items: center;
 }
 
-.google {
-    width: 165px;
-    height: 61px;
+.d1 {
+    width: 90%;
+    height: 15%;
 }
 
-.apple {
-    width: 175px;
-    height: 64px;
+span {
+    font-family: 'Rosario';
+    font-size: 3rem;
+    line-height: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.d2 {
+    font-family: 'Rosario';
+    font-size: 3rem;
+    line-height: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #804E4E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.d3 {
+    width: 90%;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 2.375rem;
+    line-height: 50px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.passos{
+    width: 88%;
+    height: 70%;
+    padding: 10px 20px 0;
+}
+
+.desc_passos {
+    height: 20%;
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.desc_passos a{
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 1.56rem;
+    line-height: 70px;
+    color: #804E4E;
+}
+
+.store {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.store a{
+    width: 47%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app {
+   width: 96%;
 }
