@@ -26,6 +26,12 @@ header{
     background-color: #FFFFFF;
 }
 
+    @media (max-width: 768px){
+        header {
+            width: 100%;
+        }
+    }
+
     @media (max-width:425px){
         header{
             width: 100%;
@@ -39,6 +45,11 @@ header{
     justify-content: space-between;
 }
 
+    @media (max-width: 768px) {
+        #header{
+            justify-content: center;
+        }
+    }
     
     @media (max-width:425px){
         #header{
@@ -58,6 +69,14 @@ header{
     display: flex;
     align-items: center;
 }
+
+    @media (max-width: 768px){
+        .box_icon{
+            display: flex;
+            align-items: right;
+        }
+    }
+
 
     @media (max-width: 425px){
         .box_icon{
@@ -175,6 +194,13 @@ main{
     justify-content: flex-end;
 }
 
+    @media (max-width: 768px){
+        #container_coffe{
+            height: 100%;
+            padding: 0px;
+        }
+    }
+
     @media (max-width:425px){
         #container_coffe{
             height: 100%;
@@ -192,6 +218,14 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+
+    @media (max-width: 768px) {
+        .title {
+            width: 50%;
+            align-items: center;
+        }
+    }
+
 
     @media (max-width:425px){
         .title{
@@ -220,6 +254,14 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+    @media (max-width: 768px){
+        .title h1 {
+            width: 300px;
+            font-size: 2.6rem;
+            line-height: 40px;
+        }
+    }
+
     @media (max-width:425px){
         .title h1{
             width: 244px;
@@ -245,6 +287,16 @@ main{
     line-height: 40px;
     color: #000000;
 }
+
+    @media (max-width: 768px){
+        .title p{
+            width: 350px;
+            height: 25vh;
+            font-size: 1.2rem;            
+            line-height: 30px;
+            text-align: center;
+        }
+    }
 
     @media (max-width:425px){
         .title p{
@@ -303,6 +355,13 @@ main{
     margin-top: -40px;
 }
 
+    @media (max-width: 768px){
+        .love_coffe p{
+            font-size: 0.7rem;
+            line-height: 30px;
+        }
+    }
+
     @media (max-width:425px){
         .love_coffe p{
             width: 67%;
@@ -328,6 +387,13 @@ main{
     margin: 130px 0 90px;
 }
 
+    @media (max-widt: 768px){
+        #gallery {
+            height: 100%;
+        }
+    }
+
+
     @media (max-width:425px){
         #gallery{
             height: 100%;
@@ -342,6 +408,13 @@ main{
     height: 100%;
 }
 
+    @media (max-width: 768px) {
+        .photograph{
+            width: 50%;
+            height: 85%;
+        }
+    }
+    
     @media (max-width:425px){
         .photograph{
             width: 90%;
@@ -372,6 +445,8 @@ main{
     width: 100%;
     height: 100%;
 }
+
+
 
 .photograph p{
     width: 100%;
@@ -458,6 +533,13 @@ main{
     height: 69%;
 }
 
+    @media (max-width: 768px){
+        .photo_coffe-3{
+            height: 50%;
+        }
+    }
+
+
     @media (max-width:425px){
         .photo_coffe-3{
             height: 25vh;
@@ -490,6 +572,13 @@ main{
     text-transform: capitalize;
     color: #000000;
 }
+
+    @media (max-width: 768px){
+        .box p{
+            height: 28%;
+            font-size: 0.8rem;
+        }
+    }
 
     @media (max-width:425px){
         .box p{
@@ -701,9 +790,22 @@ main{
     color: #FFE8E8;
 }
 
+    @media (max-width: 768px){
+        .desc_1{
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
 .lista{
     width: 100%;
     height: 80%;
+}
+
+@media (max-width: 768px){
+    .lista{
+        text-align: center;
+    }
 }
 
 .lista1 {
@@ -723,6 +825,13 @@ main{
 }
 
 
+    @media (max-width: 768px){
+        .lista1 {
+            font-size: 0.8rem;
+        }
+    }
+
+
 .lista2 {
     width: 100%;
     height: 25%;
@@ -739,6 +848,13 @@ main{
     color: #FFE8E8;
 }
 
+    @media (max-width: 768px){
+        .lista2 {
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    }
+
 .background{
     width: 100%;
     height: 50vh;
@@ -747,6 +863,12 @@ main{
     top: 328vh;
     z-index: -1;
 }
+
+    @media (max-width: 768px){
+        .background {
+            top: 276vh;
+        }
+    }
 
     @media (max-width:425px){
         .background{
@@ -788,7 +910,7 @@ main{
     justify-content: space-between;
 }
 
-    @media (max-width:425px){
+     @media (max-width:425px){
         .gal1{
             flex-direction: column;
             align-items: center;
@@ -814,6 +936,12 @@ main{
     height: 282px;
 }
 
+    @media (max-width: 768px){
+        .cafe {
+            height: 210px;
+        }
+    }
+
     @media (max-width:375px){
         .cafe{
             height: 260px;
@@ -834,6 +962,12 @@ main{
     text-align: center;
     box-shadow: 2px 2px 2px 0 #B0C4DE;
 }
+
+    @media (max-width: 768px){
+        .cafee {
+            height: 12vh;
+        }
+    }
 
     @media (max-width:425px){
         .cafee{
@@ -889,6 +1023,12 @@ footer {
     margin: 0 auto 50px;
 }
 
+    @media (max-width: 768px){
+        #footer {
+            height: 73vh;
+        }
+    }
+
     @media (max-width:425px){
         #footer{
             width: 95%;
@@ -915,6 +1055,12 @@ footer {
     width: 40%;
     height: 100%;
 }
+
+    @media (max-width:768px){
+        .parte_footer1{
+            height: 67vh;
+        }
+    }
 
     @media (max-width:425px){
         .parte_footer1{
@@ -1000,6 +1146,12 @@ span {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+    @media (max-width: 768px){
+        span {
+            font-size: 2.1rem;
+        }    
+    }
+
     @media (max-width:425px){
         span{
             font-size: 2.25rem;
@@ -1016,6 +1168,12 @@ span {
     color: #804E4E;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+    @media (max-width: 768px){
+        .d2{
+            font-size: 2.1rem;
+        }
+    }
 
     @media (max-width:425px){
         .d2{
@@ -1038,6 +1196,12 @@ span {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+    @media (max-width: 768px){
+        .d3 {
+            font-size: 1.5rem;
+        }
+    }
 
     @media (max-width:425px){
         .d3{
@@ -1080,6 +1244,13 @@ span {
     color: #000000;
 }
 
+    @media (max-width: 768px){
+        .desc_passos{
+            font-size: 1.15rem;
+        }
+    }
+
+
     @media (max-width:425px){
         .desc_passos{
             font-size: 1.54rem;
@@ -1105,6 +1276,12 @@ span {
     line-height: 70px;
     color: #804E4E;
 }
+
+    @media (max-width: 768px){
+        .desc_passos a {
+            font-size: 1.15rem;
+        }
+    }
 
 .store {
     width: 100%;
