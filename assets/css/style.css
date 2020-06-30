@@ -279,7 +279,6 @@ main{
     margin-top: 90px;
 }
 
-    
     @media (max-width:1024px){
         .love_coffe{
             width: 56%;
@@ -345,6 +344,17 @@ main{
         }
     }
 
+    @media(max-width:375px){
+        .love_coffe p{
+            padding: 6% 5%;
+        }
+    }
+
+    @media(max-width:360px){
+        .love_coffe p{
+            padding: 5% 4%;
+        }
+    }
 /*section fotos café*/
 #gallery{
     height: 70vh;
@@ -483,6 +493,11 @@ main{
         }
     }
 
+    @media(max-width:360px){
+        .box_photograph{
+            height: 37vh;
+        }
+    }
 .box{
     width: 48%;
     height: 100%;
@@ -543,6 +558,12 @@ main{
         }
     }
 
+    @media(max-width:360px){
+        .box p{
+            padding: 7px 15px;
+        }
+    }
+
 /*Sessão de localização*/
 #fundo{
     width: 90%;
@@ -565,6 +586,12 @@ main{
     @media (max-width:425px){
         .description{
             font-size: 1.5rem;
+        }
+    }
+
+    @media(max-width:360px){
+        .description{
+            font-size: 1.2rem;
         }
     }
 
@@ -799,7 +826,7 @@ main{
     height: 50vh;
     background-color: #804E4E;
     position: absolute;
-    top: 328vh;
+    top: 330vh;
     z-index: -1;
 }
 
@@ -822,13 +849,17 @@ main{
         }
     }
 
-    @media (max-width:360px){
+    @media (max-width:375px){
         .background{
-            height: 30vh;
-            top:293vh
+            top:349vh
         }
     }
 
+    @media(max-width:360px){
+        .background{
+            top:340vh;
+        }
+    }
 /*Galeria de Café*/
 .galeria {
     width: 80%;
@@ -909,6 +940,7 @@ main{
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 22px;
+    margin-bottom: 18px;
     color: #804E4E;
 }
 
@@ -1087,6 +1119,11 @@ span {
         }
     }
 
+    @media(max-width:360px){
+        .passos{
+            margin-top: 10vh;
+        }
+    }
 .desc_passos {
     height: 20%;
     font-family: 'Rosario';
@@ -1108,6 +1145,16 @@ span {
         }
     }
 
+    @media(max-width:375px){
+        .desc_passos{
+            font-size: 1.25rem;
+        }
+    }
+
+    @media(max-width:360px){
+        line-height: 48px;
+    }
+
 .desc_passos a{
     font-family: 'Rosario';
     font-weight: bold;
@@ -1115,7 +1162,7 @@ span {
     line-height: 70px;
     color: #804E4E;
 }
-
+0
     @media (max-width: 768px){
         .desc_passos a {
             font-size: 1.15rem;
