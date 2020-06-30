@@ -26,18 +26,6 @@ header{
     background-color: #FFFFFF;
 }
 
-    @media (max-width: 768px){
-        header {
-            width: 100%;
-        }
-    }
-
-    @media (max-width:425px){
-        header{
-            width: 100%;
-        }
-    }
-
 #header{
     width: 90%;
     height: 18vh;
@@ -53,14 +41,7 @@ header{
     
     @media (max-width:425px){
         #header{
-            height: 16vh;
-            justify-content: center;
-        }
-    }
-
-    @media (max-width:360px){
-        #header{
-            height: 12vh;
+            height: 15vh;
         }
     }
 
@@ -69,14 +50,6 @@ header{
     display: flex;
     align-items: center;
 }
-
-    @media (max-width: 768px){
-        .box_icon{
-            display: flex;
-            align-items: right;
-        }
-    }
-
 
     @media (max-width: 425px){
         .box_icon{
@@ -107,6 +80,12 @@ header{
 .box_santa_teresa figure{
     width: 8%;
 }
+
+    @media(max-width:768px){
+        .box_santa_teresa figure{
+            width: 15%;
+        }
+    }
 
 .box_santa_teresa figure img{
     width: 23px;
@@ -182,13 +161,11 @@ header{
 
 main{
     width: 100%;
-    height: 100%;
 }
 
 /*container principal*/
 #container_coffe{
     width: 100%;
-    height: 120vh;
     padding-left: 5%;
     display: flex;
     justify-content: flex-end;
@@ -196,36 +173,36 @@ main{
 
     @media (max-width: 768px){
         #container_coffe{
-            height: 100%;
             padding: 0px;
         }
     }
 
     @media (max-width:425px){
         #container_coffe{
-            height: 100%;
-            padding: 0px;
             margin-top: 15px;
-            display: flex;
             flex-direction: column;
         }
     }
 
 .title{
     width: 40%;
-    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-    @media (max-width: 768px) {
-        .title {
-            width: 50%;
-            align-items: center;
+    @media (max-width:1024px){
+        .title{
+            width: 44%;
         }
     }
 
+    @media (max-width: 768px) {
+        .title {
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
 
     @media (max-width:425px){
         .title{
@@ -234,11 +211,6 @@ main{
         }
     }
 
-    @media (max-width:360px){
-        .title{
-            width: 90%;
-        }
-    }
 .title h1{
     width: 410px;
     height: 45vh;
@@ -256,7 +228,7 @@ main{
 
     @media (max-width: 768px){
         .title h1 {
-            width: 300px;
+            width: 295px;
             font-size: 2.6rem;
             line-height: 40px;
         }
@@ -271,15 +243,8 @@ main{
         }
     }
 
-    @media (max-width:360px){
-        .title h1{
-            height: 15vh;
-        }
-    }
-
 .title p{
     width: 500px;
-    height: 40vh;
     font-family: 'Rosario';
     font-style: normal;
     font-weight: normal;
@@ -290,11 +255,10 @@ main{
 
     @media (max-width: 768px){
         .title p{
-            width: 350px;
+            width: 290px;
             height: 25vh;
             font-size: 1.2rem;            
             line-height: 30px;
-            text-align: center;
         }
     }
 
@@ -307,12 +271,6 @@ main{
         }
     }
 
-    @media (max-width:360px){
-        .title p{
-            height: 15vh;
-        }
-    }
-
 .love_coffe{
     width: 60%;
     display: flex;
@@ -320,6 +278,13 @@ main{
     align-items: center;
     margin-top: 90px;
 }
+
+    
+    @media (max-width:1024px){
+        .love_coffe{
+            width: 56%;
+        }
+    }    
 
     @media (max-width:425px){
         .love_coffe{
@@ -341,59 +306,59 @@ main{
 
 .love_coffe p{
     width: 60%;
-    height: 25%;
     background-color: #7FB38D;
     border-left: 20px solid #FFFFFF;
     font-family: 'Rosario';
     font-style: normal;
     font-weight: normal;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 45px;
     text-transform: uppercase;
     color: #FFE8E8;
-    padding: 20px;
+    padding: 40px 36px;
     margin-top: -40px;
 }
 
+    @media(max-width:1024px){
+        .love_coffe p{
+            width: 60%;
+            font-size: 1rem;
+            line-height: 30px;
+            display: flex;
+            justify-content: center;
+            padding: 5% 4%;
+        }
+    }
+
     @media (max-width: 768px){
         .love_coffe p{
-            font-size: 0.7rem;
-            line-height: 30px;
+            width: 60%;
+            font-size: 0.8rem;
+            line-height: 25px;
         }
     }
 
     @media (max-width:425px){
         .love_coffe p{
-            width: 67%;
-            font-size: 0.8rem;
-            line-height: 25px;
-            padding:17px 16px;
+            width: 70%;
+            padding: 6% 9%;           
         }
     }
-
-    @media (max-width:360px){
-        .love_coffe p{
-            padding: 14px;
-        }
-    }
-
 
 /*section fotos café*/
 #gallery{
-    width: 100%;
     height: 70vh;
     display: flex;
     justify-content: space-around;
     margin: 130px 0 90px;
 }
 
-    @media (max-widt: 768px){
-        #gallery {
-            height: 100%;
+    @media(max-width:1024px){
+        #gallery{
+            height: 65vh;
         }
     }
-
-
+    
     @media (max-width:425px){
         #gallery{
             height: 100%;
@@ -405,13 +370,17 @@ main{
 
 .photograph{
     width: 40%;
-    height: 100%;
 }
+
+    @media(max-width:1024px){
+        .photograph{
+            width: 45%;
+        }
+    }
 
     @media (max-width: 768px) {
         .photograph{
             width: 50%;
-            height: 85%;
         }
     }
     
@@ -435,21 +404,12 @@ main{
         }
     }
 
-    @media (max-width:360px){
-        .photo_coffe-1{
-            height: 45vh;
-        }
-    }
-
 .photo_coffe-1 img{
     width: 100%;
     height: 100%;
 }
 
-
-
 .photograph p{
-    width: 100%;
     height: 20%;
     display: flex;
     align-items: center;
@@ -469,16 +429,15 @@ main{
         }
     }
 
-    @media (max-width:360px){
-        .photograph p{
-            height: 10vh;
-        }   
-    }
-
 .wrap_photograph{
     width: 40%;
-    height: 100%;
 }
+
+    @media(max-width:1024px){
+        .wrap_photograph{
+            width: 45%;
+        }
+    }
 
     @media (max-width:425px){
         .wrap_photograph{
@@ -492,22 +451,17 @@ main{
     height: 31%;
 }
 
+    @media(max-width:768px){
+        .photo_coffe-2{
+            height: 33%;
+        }
+    }
+
     @media (max-width:425px){
         .photo_coffe-2{
             height: 23vh;
         }
     }
-
-    @media (max-width:360px){
-        .photo_coffe-2{
-            height: 22vh;
-        }
-    }
-
-.photo_coffe-2 img{
-    width: 100%;
-    height: 100%;
-}
 
 .box_photograph{
     width: 100%;
@@ -516,6 +470,12 @@ main{
     justify-content: space-between;
     margin-top: 1.5rem;
 }
+
+    @media(max-width: 768px){
+        .box_photograph{
+            height: 60%;
+        }
+    }
 
     @media (max-width:425px){
         .box_photograph{
@@ -535,7 +495,7 @@ main{
 
     @media (max-width: 768px){
         .photo_coffe-3{
-            height: 50%;
+            height: 66%;
         }
     }
 
@@ -545,18 +505,6 @@ main{
             height: 25vh;
         }
     }
-
-    @media (max-width:360px){
-        .photo_coffe-3{
-            height: 25vh;
-        }
-    }
-
-.photo_coffe-3 img{
-    width: 100%;
-    height: 100%;
-}
-
 
 .box p{
     width: 100%;
@@ -573,10 +521,16 @@ main{
     color: #000000;
 }
 
+    @media(max-width:1024px){
+        .box p{
+            font-size: 1rem;
+        }
+    }
+
     @media (max-width: 768px){
         .box p{
-            height: 28%;
-            font-size: 0.8rem;
+            height: 34%;
+            font-size: 12px;
         }
     }
 
@@ -586,13 +540,6 @@ main{
             padding: 7px 19px;
             font-size: 0.62rem;
             line-height: 22px;
-        }
-    }
-
-    @media (max-width:360px){
-        .box p{
-            height: 9vh;
-            padding: 0px 16px;
         }
     }
 
@@ -609,22 +556,15 @@ main{
     justify-content: center;
     align-items: center;
     font-family: 'Rosario';
-    font-size: 1.75rem;
+    font-size: 2rem;
     line-height: 45px;
     text-transform: uppercase; 
     color: #804E4E;
 }
     
-    @media (max-width:375px){
+    @media (max-width:425px){
         .description{
-            font-size: 1.6rem;
-        }
-    }
-
-    @media (max-width:360px){
-        .description{
-            font-size: 1.48rem;
-            height: 10vh;
+            font-size: 1.5rem;
         }
     }
 
@@ -635,17 +575,16 @@ main{
     margin: auto;
 }
 
-    @media (max-width:425px){
+    @media(max-width:1024px){
         .qualocalizacao{
-            width: 90%;
-            height: 75vh;
+            width: 100%;
         }
     }
 
-    @media (max-width:360px){
+    @media (max-width:425px){
         .qualocalizacao{
             width: 90%;
-            height: 55vh;
+            height: 62vh;
         }
     }
 
@@ -658,6 +597,7 @@ main{
     @media (max-width:425px){
         .quadroloc{
             width: 100%;
+            height: 100%;
         }
     }
 
@@ -685,13 +625,7 @@ main{
 
     @media (max-width:425px){
         .loca1{
-            height: 12vh;;
-        }
-    }
-
-    @media (max-width:360px){
-        .loca1{
-            height: 8vh;
+            height: 10vh;;
         }
     }
 
@@ -702,6 +636,12 @@ main{
     justify-content: space-evenly;
     align-items: center;
 }
+
+    @media(max-width:1024px){
+        .formulario{
+            width: 80%;
+        }
+    }
 
     @media (max-width:425px){
         .formulario{
@@ -718,13 +658,7 @@ main{
     @media (max-width:425px){
         .icon{
             width: 100%;
-            height: 12vh;
-        }
-    }
-
-    @media (max-width:360px){
-        .icon{
-            height: 8vh;
+            height: 100%;
         }
     }
 
@@ -757,6 +691,7 @@ main{
     border: 1.5px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-left: 4%;
+    outline-color: #40724d;
 }
 
 /*Quadro localização direita*/
@@ -790,7 +725,7 @@ main{
     color: #FFE8E8;
 }
 
-    @media (max-width: 768px){
+    @media (max-width: 1024px){
         .desc_1{
             font-size: 1rem;
             text-align: center;
@@ -824,13 +759,17 @@ main{
     color: #FFE8E8;
 }
 
+    @media (max-width: 1024px){
+        .lista1{
+            padding: 20px;
+        }
+    }
 
     @media (max-width: 768px){
         .lista1 {
             font-size: 0.8rem;
         }
     }
-
 
 .lista2 {
     width: 100%;
@@ -864,21 +803,21 @@ main{
     z-index: -1;
 }
 
+    @media (max-width: 1024px){
+        .background {
+            top: 265vh;
+        }
+    }
+
     @media (max-width: 768px){
         .background {
-            top: 276vh;
+            top: 290vh;
         }
     }
 
     @media (max-width:425px){
         .background{
-            height: 38vh;
-            top:365vh;
-        }
-    }
-
-    @media (max-width:375px){
-        .background{
+            height: 32vh;
             top:358vh;
         }
     }
@@ -898,8 +837,15 @@ main{
     justify-content: space-around;
 }
 
+    @media(max-width:1024px){
+        .galeria{
+            width: 90%;
+        }
+    }
+
     @media (max-width:425px){
         .galeria{
+            width: 75%;
             margin: 60px auto 40px;
         }
     }
@@ -921,6 +867,7 @@ main{
     width: 30%;
     display: flex;
     flex-direction: column;
+    background-color:  #FFFFFF;
 }
 
     @media (max-width:425px){
@@ -939,51 +886,6 @@ main{
     @media (max-width: 768px){
         .cafe {
             height: 210px;
-        }
-    }
-
-    @media (max-width:375px){
-        .cafe{
-            height: 260px;
-        }
-    }
-    @media (max-width:360px){
-        .cafe{
-            height: 230px;
-        }
-    }
-
-.cafee {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    text-align: center;
-    box-shadow: 2px 2px 2px 0 #B0C4DE;
-}
-
-    @media (max-width: 768px){
-        .cafee {
-            height: 12vh;
-        }
-    }
-
-    @media (max-width:425px){
-        .cafee{
-            box-shadow: 2px 2px 2px 0 rgba(0,0,0, 1.0);
-        }
-    }
-
-    @media (max-width:375px){
-        .cafee{
-            height: 14vh;
-        }
-    }
-
-    @media (max-width:360px){
-        .cafee{
-            height: 12vh;
         }
     }
 
@@ -1023,6 +925,13 @@ footer {
     margin: 0 auto 50px;
 }
 
+
+    @media(max-width:1024px){
+        #footer{
+            width: 90%;
+        }
+    }
+
     @media (max-width: 768px){
         #footer {
             height: 73vh;
@@ -1039,45 +948,15 @@ footer {
         }
     }
 
-    @media (max-width:375px){
-        #footer{
-            height: 207vh;
-        }
-    }
-
-    @media (max-width:360px){
-        #footer{
-            height: 180vh;
-        }
-    }
-
 .parte_footer1{
     width: 40%;
     height: 100%;
 }
 
-    @media (max-width:768px){
-        .parte_footer1{
-            height: 67vh;
-        }
-    }
-
     @media (max-width:425px){
         .parte_footer1{
             width: 100%;
             height: 100vh;
-        }
-    }
-
-    @media (max-width:375px){
-        .parte_footer1{
-            height: 92vh;
-        }
-    }
-
-    @media (max-width:360px){
-        .parte_footer1{
-            height: 80vh;
         }
     }
 
@@ -1099,19 +978,6 @@ footer {
             width: 100%;
             height: 100vh;
             margin: 15vh 0vh 0vh;
-        }
-    }
-
-    @media (max-width:375px){
-        .parte_footer2{
-            margin: 10vh 0vh 0vh;
-        }
-    }
-
-    @media (max-width:360px){
-        .parte_footer2{
-            height: 90vh;
-            margin: 8vh 0vh 0vh;
         }
     }
 
@@ -1181,12 +1047,6 @@ span {
         }
     }
 
-    @media (max-width:360px){
-        .d2{
-            font-size: 1.9rem;
-        }
-    }
-
 .d3 {
     width: 90%;
     font-family: 'Rosario';
@@ -1227,14 +1087,6 @@ span {
         }
     }
 
-    @media (max-width:360px){
-        .passos{
-            height: 55%;
-            font-size: 1.3rem;
-            margin-top: 6vh;
-        }
-    }
-
 .desc_passos {
     height: 20%;
     font-family: 'Rosario';
@@ -1246,26 +1098,13 @@ span {
 
     @media (max-width: 768px){
         .desc_passos{
-            font-size: 1.15rem;
+            font-size: 1.2rem;
         }
     }
-
 
     @media (max-width:425px){
         .desc_passos{
-            font-size: 1.54rem;
-        }
-    }
-
-    @media (max-width:375px){
-        .desc_passos{
-            font-size: 1.36rem;
-        }
-    }
-
-    @media (max-width:360px){
-        .desc_passos{
-            font-size: 1.3rem;
+            font-size: 1.5rem;
         }
     }
 
@@ -1295,13 +1134,6 @@ span {
     @media (max-width:425px){
         .store{
             justify-content: center;
-        }
-    }
-
-    @media (max-width:360px){
-        .store{
-            height: 10%;
-            margin-top: 29px;
         }
     }
 
